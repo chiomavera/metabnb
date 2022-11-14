@@ -21,7 +21,7 @@ const TopNavBar = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mx-auto">
               <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="/place">Place to stay</Nav.Link>
+              <Nav.Link href="/place-to-stay">Place to stay</Nav.Link>
               <Nav.Link href="#nfts">NFTs</Nav.Link>
               <Nav.Link href="#community">Community</Nav.Link>
             </Nav>
