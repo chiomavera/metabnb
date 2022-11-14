@@ -1,13 +1,13 @@
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/home";
-import Connect from "./pages/connect";
+import Place from "./pages/place";
 
 const App = () => {
   return (
     <div className="App">
       <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="connect" element={<Connect />} />
+          <Route path="place-to-stay" element={<Place />} />
       </Routes>
     </div>
   );
