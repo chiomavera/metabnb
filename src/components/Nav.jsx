@@ -12,7 +12,7 @@ const TopNavBar = () => {
           <img
               alt="logo"
               src={Logo}
-              width="100"
+              width="150"
               height="50"
               className="d-inline-block align-top"
             />
@@ -21,9 +21,9 @@ const TopNavBar = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mx-auto">
               <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="#link">Place to stay</Nav.Link>
-              <Nav.Link href="#link">NFTs</Nav.Link>
-              <Nav.Link href="#link">Community</Nav.Link>
+              <Nav.Link href="/place">Place to stay</Nav.Link>
+              <Nav.Link href="#nfts">NFTs</Nav.Link>
+              <Nav.Link href="#community">Community</Nav.Link>
             </Nav>
             <Button />
           </Navbar.Collapse>
