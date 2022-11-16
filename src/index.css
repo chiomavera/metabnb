@@ -32,7 +32,7 @@ a {
   font-family: inherit;
   font-style: normal;
   font-weight: 400;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 140%;
   letter-spacing: -0.02em;
   color: #434343;
@@ -42,7 +42,7 @@ a {
   font-family: inherit;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 35px;
   color: #434343;
   margin-top: 20px;
@@ -272,6 +272,10 @@ footer {
 
 
 @media (min-width: 375px){
+  .hero-heading {
+    font-size: 35px;
+  }
+  
   .search{
     width: 250px;
   }
@@ -283,6 +287,10 @@ footer {
 }
 
 @media (min-width: 500px) {
+  .hero-heading {
+    font-size: 40px;
+  }
+  
   .search{
     width: 380px;
   }
