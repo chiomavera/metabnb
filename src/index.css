@@ -75,7 +75,7 @@ input::placeholder {
 
 .search-btn {
   width: 220px;
-  padding: 5px 20px;
+  padding: 6.5px 20px;
   background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
   border-radius: 0px 8px 8px 0px;
   color: #fff;
@@ -134,12 +134,12 @@ input::placeholder {
 }
 
 .Nfts-heading {
-  width: 346px;
+  width: 300px;
   height: 60px;
   font-family: inherit;
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 38px;
   background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -283,6 +283,7 @@ footer {
 
   .Nfts-heading {
     font-size: 48px;
+    width: 346px;
   }
 
   .footer-links {
@@ -421,13 +422,26 @@ footer {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 490px) {
   .search {
     width: 200px;
   }
 
   .hero-image {
     width: 250px;
+  }
+
+  .search-btn {
+    width: 100px;
+   
+  }
+
+  .footer-main-link {
+    font-size: 14px;
+  }
+
+  .footer-sub-link{
+    font-size: 12px;
   }
 }
 
@@ -438,5 +452,10 @@ footer {
 
   .footer-links {
     margin-top: 20px;
+  }
+
+  .search-box{
+    align-items: center;
+    justify-content: center;
   }
 }
