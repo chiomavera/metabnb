@@ -91,7 +91,9 @@ input::placeholder {
   justify-content: center;
   align-items: center;
 }
-.hero-image {
+
+.hero-image, 
+.Nfts-image {
   margin-top: 50px;
   width: 250px;
 }
@@ -120,7 +122,7 @@ input::placeholder {
   font-family: inherit;
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 25px;
   text-align: center;
 }
 
@@ -145,6 +147,7 @@ input::placeholder {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  margin-top: 150px;
 }
 
 .Nfts-text {
@@ -288,7 +291,7 @@ footer {
 
 @media (min-width: 500px) {
   .hero-heading {
-    font-size: 40px;
+    font-size: 48px;
   }
   
   .search{
@@ -303,16 +306,17 @@ footer {
     width: 120px;
   }
 
-  .hero-image {
+  .hero-image,
+  .Nfts-image {
     width: 400px;
   }
-
+  
   .gallery1-heading {
     font-size: 30px;
   }
 
   .Nfts-heading {
-    font-size: 48px;
+    font-size: 40px;
     width: 346px;
   }
 
@@ -347,7 +351,7 @@ footer {
 
 @media (min-width: 600px) {
   .hero-heading {
-    font-size: 56px;
+    font-size: 50px;
   }
 
   .hero-text {
@@ -402,6 +406,10 @@ footer {
   .hero-image {
     width: 250px;
   }
+
+  .footer-last {
+    top: 190px;
+  }
 }
 
 @media (min-width: 1000px) {
@@ -421,12 +429,12 @@ footer {
     max-width: 465px;
   }
 
-  .footer-last {
-    top: 200px;
-  }
-
   .hero-image {
     width: 300px;
+  }
+
+  .Nfts-text {
+    width: 415px;
   }
 }
 
@@ -448,6 +456,10 @@ footer {
   .footer-links {
     gap: 217px;
   }
+
+  .Nfts-image {
+    width: 500px;
+  }
 }
 
 @media (min-width: 1400px) {
@@ -461,6 +473,10 @@ footer {
 
   .nav-link {
     font-size: 18px;
+  }
+
+  .Nfts-image {
+    width: 574px;
   }
 }
 
