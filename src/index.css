@@ -1,103 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Rose:wght@400;700&display=swap");
+
 body {
   margin: 0;
   font-family: "Red Rose";
 }
-
-.connect{
-  padding: 5px 20px;
-  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
-  border-radius: 10px;
-  color: #fff;
-  font-family: inherit;
-  font-weight: 400;
-  font-size: 16px;
-  font-style: normal;
-  border: none;
-}
-
-.connect a{
-  color: #fff;
-  font-family: inherit;
-  font-weight: 400;
-  font-size: 16px;
-  font-style: normal;
+a {
   text-decoration: none;
 }
 
-.hero{
+.connect {
+  padding: 5px 20px;
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+  border-radius: 10px;
+  color: #fff;
+  border: none;
+}
+
+.connect a {
+  color: #fff;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+}
+
+.hero {
   margin-top: 50px;
 }
 
-.hero-heading{ 
-font-family: inherit;
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 140%;
-letter-spacing: -0.02em;
-color: #434343;
-}
-
-.hero-text{
+.hero-heading {
   font-family: inherit;
   font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 35px;
-color: #434343;
-margin-top: 20px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 140%;
+  letter-spacing: -0.02em;
+  color: #434343;
 }
 
-.colored-text{
-  color: #A02279;
-
+.hero-text {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  color: #434343;
+  margin-top: 20px;
 }
-.search-box{
+
+.colored-text {
+  color: #a02279;
+}
+.search-box {
   display: flex;
   margin-top: 25px;
 }
 
-.search{
+.search {
   padding: 5px 20px;
   border-radius: 8px 0px 0px 8px;
   width: 380px;
-  border: 1px solid #A3A3A3;
+  border: 1px solid #a3a3a3;
   background: rgba(247, 247, 247, 0.1);
 }
 
-input::placeholder{
+input::placeholder {
   font-family: inherit;
   font-weight: 400;
   font-size: 14px;
   font-style: normal;
-  color: #B8B8B8;
+  color: #b8b8b8;
+  text-align: center;
 }
 
-.search-btn{
+.search-btn {
   width: 220px;
   padding: 5px 20px;
-  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
   border-radius: 0px 8px 8px 0px;
   color: #fff;
   font-family: inherit;
   font-weight: 400;
   font-size: 14px;
   font-style: normal;
-  border: 1px solid #A02279;
+  border: 1px solid #a02279;
 }
 
-.hero-image-box{
+.hero-image-box {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.hero-image{
+.hero-image {
   margin-top: 50px;
 }
 
-
-.logo-house{
-  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+.logo-house {
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
   height: 70px;
   display: flex;
   justify-content: center;
@@ -108,78 +107,336 @@ input::placeholder{
   gap: 20px;
 }
 
-.icon{
-  width: 100px;
+.icon {
+  width: 80px;
 }
 
+.gallery-house {
+  width: 100%;
+}
 
+.gallery1-heading {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+}
 
-@media (min-width: 500px){
-  .icon{
+.gallery-image {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.Nfts {
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+  border: 1px solid #000000;
+}
+
+.Nfts-heading {
+  width: 346px;
+  height: 60px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.Nfts-text {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 35px;
+  background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.Nfts-btn {
+  border: none;
+  background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
+  border-radius: 8px;
+}
+
+.Nfts-btn a {
+  width: 90px;
+  height: 20px;
+  line-height: 19px;
+  text-align: center;
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+}
+
+footer {
+  background: #1d1d1e;
+  color: #fff;
+  padding-top: 50px;
+  position: relative;
+  margin-bottom: 0;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
+}
+
+.footer-icons {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  gap: 10px;
+}
+
+.footer-main-link {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.footer-sub-link {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 35px;
+  color: #f1f3f9;
+}
+
+.nav-link {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #434343;
+}
+
+.nav-link:hover {
+  color: #000000;
+}
+
+.location {
+  border: 1px solid #434343;
+  background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
+  border: 1px solid #b4b4b4;
+  border-radius: 8px;
+}
+
+.location-link {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.modal-box {
+  margin-top: 200px;
+}
+
+.modal-title {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #333333;
+}
+
+.modal-button {
+  max-width: 465px;
+}
+
+.modal-image {
+  width: 100%;
+}
+
+@media (min-width: 500px) {
+  .icon {
     width: 120px;
+  }
+
+  .hero-image {
+    width: 400px;
+  }
+
+  .gallery1-heading {
+    font-size: 30px;
+  }
+
+  .Nfts-heading {
+    font-size: 48px;
+  }
+
+  .footer-links {
+    gap: 70px;
   }
 }
 
-@media (min-width: 600px){
-  .hero-heading{
+@media (min-width: 517px) {
+  .modal-button {
+    max-width: 466px;
+  }
+}
+
+@media (min-width: 520px) {
+  .modal-button {
+    max-width: 550px;
+  }
+}
+
+@media (min-width: 600px) {
+  .hero-heading {
     font-size: 56px;
   }
 
-  .hero-text{
-   font-size: 24px;
+  .hero-text {
+    font-size: 24px;
   }
 
-  .logo-house{
+  .logo-house {
     gap: 40px;
+  }
+
+  .nav-item {
+    padding-right: 20px;
   }
 }
 
-
-@media (min-width: 768px){
+@media (min-width: 768px) {
   .hero-heading {
     width: 646px;
   }
 
-  .hero-text{
+  .hero-text {
     width: 600px;
   }
 
-  .logo-house{
+  .logo-house {
     gap: 60px;
+  }
+
+  .gallery1-heading {
+    font-size: 40px;
+  }
+
+  .nav-item {
+    padding-right: 30px;
+  }
+
+  .footer-last {
+    position: absolute;
+    top: 250px;
+  }
+
+  .footer-links {
+    gap: 100px;
   }
 }
 
+@media (min-width: 992px) {
+  .nav-item {
+    padding-right: 2px;
+  }
 
-@media (min-width: 1000px){
-  .logo-house{
+  .hero-image {
+    width: 250px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .logo-house {
     gap: 200px;
   }
 
-  .logo-image{
+  .logo-image {
     margin-top: 0;
   }
+
+  .gallery1-heading {
+    font-size: 48px;
+  }
+
+  .modal-button {
+    max-width: 465px;
+  }
+
+  .footer-last {
+    top: 200px;
+  }
+
+  .hero-image {
+    width: 300px;
+  }
 }
 
+@media (min-width: 1200px) {
+  .nav-item {
+    padding-right: 20px;
+  }
 
-@media (min-width: 1240px){
-  .logo-house{
+  .hero-image {
+    width: 350px;
+  }
+}
+
+@media (min-width: 1240px) {
+  .logo-house {
     gap: 300px;
   }
-}
 
-
-
-
-@media (max-width: 400px){
-  .search{
-   width: 330px;
+  .footer-links {
+    gap: 217px;
   }
 }
 
+@media (min-width: 1400px) {
+  .nav-item {
+    padding-right: 30px;
+  }
 
-@media (max-width: 990px){
-  .connect{
+  .hero-image {
+    width: 400px;
+  }
+
+  .nav-link {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 400px) {
+  .search {
+    width: 200px;
+  }
+
+  .hero-image {
+    width: 250px;
+  }
+}
+
+@media (max-width: 990px) {
+  .connect {
     margin-top: 10px;
   }
-}
 
+  .footer-links {
+    margin-top: 20px;
+  }
+}
