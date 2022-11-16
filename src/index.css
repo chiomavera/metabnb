@@ -151,7 +151,7 @@ input::placeholder {
   font-family: "Red Rose";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 35px;
   background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
   -webkit-background-clip: text;
@@ -314,6 +314,10 @@ footer {
   .Nfts-heading {
     font-size: 48px;
     width: 346px;
+  }
+
+  .Nfts-text {
+    font-size: 18px;
   }
 
   .footer-links {
