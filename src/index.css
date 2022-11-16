@@ -134,12 +134,12 @@ input::placeholder {
 }
 
 .Nfts-heading {
-  width: 300px;
+  width: 280px;
   height: 60px;
   font-family: inherit;
   font-style: normal;
   font-weight: 700;
-  font-size: 38px;
+  font-size: 30px;
   background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -162,6 +162,7 @@ input::placeholder {
   border: none;
   background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
   border-radius: 8px;
+  padding: 5px 20px;
 }
 
 .Nfts-btn a {
