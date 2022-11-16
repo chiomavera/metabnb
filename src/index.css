@@ -59,7 +59,7 @@ a {
 .search {
   padding: 5px 20px;
   border-radius: 8px 0px 0px 8px;
-  width: 380px;
+  width: 200px;
   border: 1px solid #a3a3a3;
   background: rgba(247, 247, 247, 0.1);
 }
@@ -74,7 +74,7 @@ input::placeholder {
 }
 
 .search-btn {
-  width: 220px;
+  width: 100px;
   padding: 6.5px 20px;
   background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
   border-radius: 0px 8px 8px 0px;
@@ -93,6 +93,7 @@ input::placeholder {
 }
 .hero-image {
   margin-top: 50px;
+  width: 250px;
 }
 
 .logo-house {
@@ -208,7 +209,7 @@ footer {
   font-family: inherit;
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 22px;
   color: #ffffff;
 }
@@ -217,7 +218,7 @@ footer {
   font-family: inherit;
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 35px;
   color: #f1f3f9;
 }
@@ -269,7 +270,22 @@ footer {
   width: 100%;
 }
 
+
+@media (min-width: 375px){
+  .search{
+    width: 250px;
+  }
+}
+
 @media (min-width: 500px) {
+  .search{
+    width: 380px;
+  }
+
+  .search-btn{
+    width: 220px;
+  }
+  
   .icon {
     width: 120px;
   }
@@ -289,6 +305,14 @@ footer {
 
   .footer-links {
     gap: 70px;
+  }
+
+  .footer-main-link {
+    font-size: 16px;
+  }
+
+  .footer-sub-link{
+    font-size: 14px;
   }
 }
 
@@ -420,29 +444,6 @@ footer {
 
   .nav-link {
     font-size: 18px;
-  }
-}
-
-@media (max-width: 490px) {
-  .search {
-    width: 200px;
-  }
-
-  .hero-image {
-    width: 250px;
-  }
-
-  .search-btn {
-    width: 100px;
-   
-  }
-
-  .footer-main-link {
-    font-size: 14px;
-  }
-
-  .footer-sub-link{
-    font-size: 12px;
   }
 }
 
