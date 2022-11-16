@@ -6,11 +6,11 @@ const App = () => {
   return (
     <div className="App">
       <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="place-to-stay" element={<Place />} />
+        <Route path="/" element={<Home />} />
+        <Route path="place-to-stay" element={<Place />} />
       </Routes>
     </div>
   );
-}
+};
 
 export default App;
