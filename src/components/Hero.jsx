@@ -22,20 +22,31 @@ const Hero = () => {
               your comfort zone
             </p>
             <div className="search-box">
-              <input type="text" className="search" placeholder="Search for location" />
+              <input
+                type="text"
+                className="search"
+                placeholder="Search for location"
+              />
               <button className="search-btn">Search</button>
             </div>
           </Col>
           <Col lg={4}>
-          <div className="hero-image-box"><img src={HeroImage} alt="Beautiful nfts" width="300" className="hero-image"/></div>
+            <div className="hero-image-box">
+              <img
+                src={HeroImage}
+                alt="Beautiful nfts"
+                width="300"
+                className="hero-image"
+              />
+            </div>
           </Col>
         </Row>
       </Container>
-      <div className='logo-house'>
-        <img src={MbToken} alt="mbtoken logo" className="icon"/>
-        <img src={MetaMask} alt="metamask logo" className="icon"/>
-        <img src={OpenSea} alt="opensea logo"className="icon"/>
-        </div>
+      <div className="logo-house">
+        <img src={MbToken} alt="mbtoken logo" className="icon" />
+        <img src={MetaMask} alt="metamask logo" className="icon" />
+        <img src={OpenSea} alt="opensea logo" className="icon" />
+      </div>
     </main>
   );
 };
